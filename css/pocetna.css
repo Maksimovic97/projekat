@@ -1,0 +1,101 @@
+.nav-meni{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 20px;
+    
+}
+
+.nav-meni2{
+    padding: 10px 15px;
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.nav-meni2:hover{
+    background-color: lightblue;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -2px black;
+}
+
+@media screen and (max-width:600px) {
+    nav .nav-meni a {
+        width: 100%; 
+    }
+    
+}
+
+body{
+    background-image: url(../slike/pozadinaNovo.png);
+    background-size: cover;
+}
+
+.tekst1{
+    font-size: 25px;
+    color: maroon;
+    text-align: center;
+}
+
+.tekst2{
+    color: maroon;
+    text-align: center;
+}
+
+.slika1{
+    width: 49%;
+    height: 70%;
+    display: inline-block;
+    
+}
+
+.slika1 img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -2px silver;
+    transform: rotate(2deg);
+}
+
+.text1{
+    text-align: justify;
+    color: maroon;
+    font-size: 20px;
+}
+
+.text12{
+    text-align: justify;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slika2{
+    width: 49%;
+    height: 70%;
+    float: right;
+    
+}
+
+.slika2 img{
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -2px silver;
+    transform: rotate(-2deg);
+}
+
+.text2{
+    text-align: right;
+    text-align: justify;
+    color: maroon;
+    font-size: 20px;
+}
